@@ -1,11 +1,11 @@
 {
-  "name": "__MSG_extName_",
+  "name": "__MSG_appName_",
   "version": "1.0",
-  "description": "Web Buddy",
+  "description": "__MSG_appDescription__",
   "manifest_version": 2,
   "default_locale": "en",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["locales.js", "background.js"],
     "persistent": false
   },
   "permissions": ["activeTab", "declarativeContent", "storage"],
@@ -25,4 +25,5 @@
     "128": "images/get_started128.png"
   },
   "options_page": "options.html"
+  
 }

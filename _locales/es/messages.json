@@ -1,6 +1,10 @@
 {
-    "extName":{
-        "message": "Mi Extensión",
-        "description": "Nombre de extensión"
-    }
+  "appName": {
+    "message": "Mi Aplicación",
+    "description": "Desctipcion de appName de la aplicacion."
+  },
+  "appDescription": {
+    "message": "Esta aplicacion esta en español.",
+    "description": "Desctipcion de appDescription de la aplicacion."
+  }
 }
